@@ -1,0 +1,5 @@
+
+/env
+*.webm
+*/.pytest_ache
+*/*/*/__pycache__
