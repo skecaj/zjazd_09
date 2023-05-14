@@ -48,4 +48,4 @@ jobs:
           -Dsonar.tests='T9/Exchange rate/tests/' \
           -Dsonar.python.coverage.reportPaths=coverage.xml \
           -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=$SONAR_TOKEN
+          -Dsonar.login=$SONAR_TOKEN -X
