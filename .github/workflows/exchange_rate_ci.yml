@@ -28,5 +28,5 @@ jobs:
     - name: Run tests
       run: |
         cd 'T9/Exchange rate'
-        export PYTHONPATH="${PYTHONPATH}:$(chdir)"
+        set PYTHONPATH="${PYTHONPATH}:$(chdir)"
         pytest tests/ -v
